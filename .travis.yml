@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key: serene-garden-35475
+    secure: cf7UUbMTC9wlt+rHjSkhSwaUnSmkxfy+iVc079Qi3M9aCbp9PS0AbHlVYudPBczwsSZS69bTnDM25IydQA36iJUrzG839gHv4K8tgEHqUK+5mvP0icUCdXLxBgg/UGkodhh1LxqW+RIIQz3hK89BswedhRwR+/Nw56pC0ZiHplRwn1JED9BuCWJkPo0pIDvTGoBl8IEwjIiiCBUYHhew60ugbsHVqCY7N3M9uCx9CLzgvoVC99Nl9eydzkc09+rCWB5HAT5z9YfL74ImENBYalbKszEsIrXkE/R1fYb0eGRYInkqQxPbLvEn7g2TGnMoQSilGjNyesFRD8QqNZllR5c0bTIn52NkRW4F//6x8HYD1EsMA5YHLd8FuxuIjsxo109p2Jp93yXdyYtk0IFADUBRk3Fbyesw8f8ZX4GotZP5EP6nN+S9TklvVVjmfpV9jiiGzOlqIF6aP3VHWrQnJxVKQsH+cWFHzlqn4Bag16YtMloHHh3c+so3Jk1Ic/9AkIl2/OqGlmso2Yxy1nGeXwkxpql7pTdgD/d2P2vYIB6Lqymk7BwZBaKHwdNq5RI7hUTTRd55F+7w7jHJMxUQiXP9gF7t3wlTun49EWUh67bQkWGWNOWWFS2rfw2q6B6T0Y8NHC2lcBojuQjmeBthqzd93XlEViZIDH768ziPz+0=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: thy-neighbor/node-shopping-list-integration-tests
